@@ -39,6 +39,11 @@ run the file : node <file name>
 ##### Note : How to setup port manually 
  EC2 dashboard -> ec2 machine info -> security -> security groups -> Inbound rules (Edit inbound rules) -> security group ruleId (not SSH) -> set type to  (select Custom TCP) -> port range (according to user) -> save rules
 
+#### Output Link for browser :
+```
+http://3.109.143.195:5000/sample
+```
+
 #### Links to learn from:
 [AWS Docs](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/setting-up-node-on-ec2-instance.html)
 
